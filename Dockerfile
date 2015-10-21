@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM alpine:3.2
 
 # run.sh script uses some bash specific syntax
 RUN apk add --update bash docker grep
